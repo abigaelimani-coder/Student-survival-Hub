@@ -1,0 +1,165 @@
+body {
+    background-color: #F4F1FA;
+    color: #333333;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* 2. HEADER */
+header {
+    background-color: #48356B;
+    color: #FFFFFF;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+/* Puts the logo and title side-by-side */
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+.tagline {
+    margin-top: 8px;
+    font-style: italic;
+    color: #D8C9F0;
+}
+
+/* 3. NAVIGATION */
+nav {
+    background-color: #D8C9F0;
+    padding: 15px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #48356B;
+    color: #FFFFFF;
+}
+
+/* 4. MAIN CONTAINER (Keeps content neatly centered on big screens) */
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* 5. HERO SECTION */
+#home {
+    background-color: #FFFFFF;
+    padding: 35px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-text h2 {
+    color: #48356B;
+    font-size: 28px;
+    margin-top: 0;
+}
+
+.hero-image img {
+    width: 320px;
+    border-radius: 10px;
+    display: block;
+}
+
+/* 6. CARDS LAYOUT */
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background-color: #FFFFFF;
+    padding: 25px;
+    border-radius: 12px;
+    flex: 1 1 260px; /* Makes cards sit side-by-side and wrap nicely */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card h2 {
+    color: #48356B;
+    font-size: 22px;
+    margin-top: 0;
+}
+
+/* 7. BUTTONS */
+.button{
+    display: inline-block;
+    background-color: #48356B;
+    color: #FFFFFF;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #362652;
+}
+
+/* 8. FOOTER */
+footer {
+    background-color: #48356B;
+    color: #FFFFFF;
+    padding: 25px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+.footer-sub {
+    color: #D8C9F0;
+    font-size: 14px;
+}
+
+.logo-img{
+width: 45px;
+height: 45px;
+object-fit: contain;
+border-radius: 6px;
+}
